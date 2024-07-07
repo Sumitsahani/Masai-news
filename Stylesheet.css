@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.section-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 15rem;
+    text-align: center;
+    height: 20rem;
+}
+
+.card-image {
+    height: 6rem;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.date {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 8px;
+}
+
+.card-title {
+    font-size: 24px;
+    margin: 0 0 8px;
+}
+
+.card-description {
+    font-size: 16px;
+    color: #666;
+    margin: 0;
+}
+
+.see-more {
+    text-align: center;
+}
+.see-more a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+.investors {
+    text-align: center;
+}
+.investors-title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+.investors-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.investors-logo {
+    flex: 1;
+    max-width: 200px;
+}
+.investors-logo img {
+    max-width: 100%;
+}
